@@ -1,0 +1,54 @@
+body {position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #FAFBC3;}
+
+.perehod {position: relative;
+    width: 1440px;
+    height: 1024px;
+    
+    background: #FAFBC3;}
+
+.titul {
+    position: absolute;
+    width: 804px;
+    height: 71px;
+    left: calc(50% - 804px/2);
+    top: 87px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.tekst {
+    position: absolute;
+    width: 1260px;
+    height: 180px;
+    left: calc(50% - 1260px/2);
+    top: 221px;
+    
+    background: #F0D7B1;
+}
+
+.list {
+    position: absolute;
+    width: 619px;
+    height: 504px;
+    left: 90px;
+    top: 448px;
+    
+    background: #F0D7B1;
+}
+
+.att {
+    position: absolute;
+    width: 588px;
+    height: 421px;
+    left: 762px;
+    top: 455px;
+
+}
