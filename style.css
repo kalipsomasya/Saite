@@ -57,7 +57,7 @@ text-align: center;
     height: 504px;
     left: 90px;
     top: 447px;
-    
+    align-items: center;
     background: #F0FED5;
     overflow: hidden;
 }
@@ -66,14 +66,16 @@ text-align: center;
     position: absolute;
 width: 562px;
 height: 443px;
-left: calc(50% - 562px/2 - 1px);
-top: calc(50% - 443px/2 - 0.5px);
 font-family: 'Luxurious Roman';
 font-style: normal;
 font-weight: 400;
 font-size: 26px;
 line-height: 31px;
 align-items: center;
+}
+
+ul {
+    top: 40px;
 }
 
 
@@ -94,3 +96,86 @@ left: 762px;
 top: 447px;
 overflow: hidden;
 }
+
+.pariesana {
+    position: absolute;
+    width: 671px;
+    height: 50px;
+    left: 746px;
+    top: 901px;
+}
+
+.dotiesuz {
+    position: relative;
+    width: 136px;
+    height: 33px;
+    left: 16px;
+    top: 6px;
+    
+    background: #94AF87;
+}
+
+.cdotiesuz{  
+text-align: center;
+margin: 0%;
+}
+
+
+.sakums {
+    position: absolute;
+width: 102px;
+height: 33px;
+left: 172px;
+top: 6px;
+
+background: #94AF87;
+}
+
+.csakums {
+    text-align: center;
+    margin: 0%;
+}
+
+.suni {
+    position: absolute;
+width: 102px;
+height: 33px;
+left: 283px;
+top: 6px;
+
+background: #94AF87;
+}
+
+.csuni {
+    text-align: center;
+margin: 0%;
+}
+
+.papagaili {
+    position: absolute;
+width: 102px;
+height: 33px;
+left: 394px;
+top: 6px;
+background: #94AF87;
+}
+
+.cpapagaili {
+    text-align: center;
+    margin: 0%;
+}
+
+.tigieri {
+    position: absolute;
+    width: 102px;
+    height: 33px;
+    left: 501px;
+    top: 6px;
+    background: #94AF87;
+}
+
+.ctigeri {
+    text-align: center;
+    margin: 0%;
+}
+
