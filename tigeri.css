@@ -1,0 +1,66 @@
+.dt {
+    position: relative;
+width: 990px;
+height: 1020px;
+
+background: #D7E7BD;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .dt1 {
+    position: absolute;
+width: 611px;
+height: 100px;
+left: 190px;
+top: 100px;
+
+background: #88A57A;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+  }
+
+.dt2 {
+    position: absolute;
+width: 380px;
+height: 460px;
+left: 53px;
+top: 270px;
+
+background-color: #88A57A;
+border-radius: 30px;
+ }
+
+ .dt3 {
+ position: absolute;
+width: 400px;
+height: 400px;
+left: 520px;
+top: 270px;
+
+background: url(tiger1.jpg);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 30px;
+ }
+
+ .dt4 { 
+ position: absolute;
+ width: 400px;
+ height: 70px;
+ left: 520px;
+ top: 762px;
+ 
+ background: #88A57A;
+ border-radius: 30px;
+ }
+
+ .dt5 {
+ position: absolute;
+width: 404.56px;
+height: 210px;
+left: 53px;
+top: 762px;
+
+background: url(tiger4.jpg);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 30px;
+ }
