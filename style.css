@@ -18,10 +18,9 @@ width: 558px;
 height: 83px;
 left: 296px;
 top: 22px;
-font-family: 'Luxurious Roman';
-font-style: normal;
 font-weight: 400;
 font-size: 36px;
+font-family: 'Luxurious Roman', cursive;
 line-height: 43px;
 text-align: center;
 }
@@ -42,6 +41,8 @@ text-align: center;
     width: 1188px;
     height: 149px;
     left: calc(50% - 1188px/2);
+    margin: 0%;
+    top: 16px;
     font-family: 'Luxurious Roman';
     font-style: normal;
     font-weight: 400;
@@ -57,25 +58,27 @@ text-align: center;
     height: 504px;
     left: 90px;
     top: 447px;
-    align-items: center;
     background: #F0FED5;
     overflow: hidden;
 }
 
 .ltekst {
     position: absolute;
-width: 562px;
-height: 443px;
-font-family: 'Luxurious Roman';
-font-style: normal;
-font-weight: 400;
-font-size: 26px;
-line-height: 31px;
-align-items: center;
-}
+    left: calc(50% - 562px/2 - 1px);
+    font-family: 'Luxurious Roman', cursive;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    align-items: center;
+    margin: 0%;
+    }
 
 ul {
-    top: 40px;
+    top: 130px;
+}
+
+.listpab {
+    top: 70px;
 }
 
 
@@ -106,76 +109,91 @@ overflow: hidden;
 }
 
 .dotiesuz {
-    position: relative;
+    position: absolute;
     width: 136px;
     height: 33px;
     left: 16px;
     top: 6px;
-    
     background: #94AF87;
 }
 
 .cdotiesuz{  
 text-align: center;
-margin: 0%;
+margin: 3%;
+font-family: 'Luxurious Roman', cursive;
+font-size: 20px;
 }
 
 
 .sakums {
     position: absolute;
-width: 102px;
-height: 33px;
-left: 172px;
-top: 6px;
-
-background: #94AF87;
+    width: 102px;
+    height: 33px;
+    left: 176px;
+    top: 6px;
+    
+    background: #94AF87;
 }
 
 .csakums {
     text-align: center;
-    margin: 0%;
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 18px;
+    margin: 5%;
 }
 
 .suni {
     position: absolute;
-width: 102px;
-height: 33px;
-left: 283px;
-top: 6px;
-
-background: #94AF87;
+    width: 102px;
+    height: 33px;
+    left: 283px;
+    top: 6px;
+    
+    background: #94AF87;
 }
 
 .csuni {
     text-align: center;
-margin: 0%;
+    margin: 5%;
+font-family: 'Luxurious Roman', cursive;
+font-size: 18px;
 }
 
 .papagaili {
     position: absolute;
-width: 102px;
-height: 33px;
-left: 394px;
-top: 6px;
-background: #94AF87;
+    width: 102px;
+    height: 33px;
+    left: 390px;
+    top: 6px;
+    
+    background: #94AF87;
 }
 
 .cpapagaili {
     text-align: center;
-    margin: 0%;
+    margin: 5% 0%;
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 18px;
 }
 
 .tigieri {
     position: absolute;
     width: 102px;
     height: 33px;
-    left: 501px;
+    left: 497px;
     top: 6px;
+    
     background: #94AF87;
 }
 
 .ctigeri {
     text-align: center;
-    margin: 0%;
+    margin: 5%;
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 18px;
 }
 
+.centresana {
+    position: absolute;
+    left: calc(50% - 1440px/2);
+}
