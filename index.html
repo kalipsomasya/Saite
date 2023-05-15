@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Majdzivnieki</title>
+    <link rel="stylesheet" href="ccccs.css">
+</head>
+<body>
+    <center>
+    <div class="bg">
+    <div class="tituls">Mājdzīvnieki</div>
+    <div id="box1" class="txtmjdz"><a href="suns.html" class="txtmjdz">Suņi</a></div>
+    <div id="box2" class="txtmjdz"><a href="kaki.html" class="txtmjdz">Kaķi</a></div>
+    <div id="box3" class="txtmjdz"><a href="HTML.html" class="txtmjdz">Papagaiļi</a></div>
+    <div id="box4" class="txtmjdz"><a href="tigeri.html" class="txtmjdz">Tīģeri</a></div>
+    <a id="img1" href="suns.html"></a>
+    <a id="img2" href="kaki.html"></a>
+    <a id="img3" href="HTML.html"></a>
+    <a id="img4" href="tigeri.html"></a>
+    <table>
+    <tr>
+    <td style="width:50%"><div class="lielstxt" style="margin-top: 520px;">Mājdzīvnieki katram ir savi mīļākie! Šie ir mūsu mīļākie mājdzīvnieki. 
+        No kaķiem, līdz tīģeriem, katram ir savi dzīvnieku favorīti! 
+        Katrā no mūsu mājaslapām ietilpst apraksts par šiem dzīvniekiem.</div></td>
+    <td style="width:50%"><canvas id="myChart" style="width:100%;max-width:600px"></canvas></td>
+    </tr>
+    </table>
+    <div class="lielstxt" style="margin-top: 10px;">Kā var novērot, populārākais kā mājdzīvnieks ir suns. 2. vietā ir kaķis, tad zivis, tad putni.<br>Ir ļoti daudz faktoru kas ietilpst izvēloties mājdzīvnieku, cik viņi ir dārgi, cik daudz par tiem jārūpējas utt. Tāpēc ir grūti noteikt tieši kāpēc rezultāti ir tādi kādi ir. Katram dzīvniekam ir savas uzvedības, kas ietekmē arī tā saimnieku, lai gan tīģerus par mājdzīvniekiem jūs neuzskatat, kāds noteikti to uzskata.<br>Apdomājiet šo teikto kamēr apmeklējat mājaslapas, un paturiet atvērtu prātu. Noteikti var iemācīties ko jaunu.</div>
+</div>
+</center>
+
+<script>
+    var xValues = ["Suņi", "Kaķi", "Zivis (saldūdens)", "Putni", "Kāmji","Reptīļi","Zivis (sālsūdens)","Zirgi"];
+    var yValues = [167, 112, 31, 16, 14,12,4,4];
+    var barColors = [
+      "#CD7F32",
+      "#FFFFFF",
+      "#ADD8E6",
+      "#FF0000",
+      "#C4A484",
+      "#00FF00",
+      "#00008B",
+      "#964B00"
+    ];
+    new Chart("myChart", {
+      type: "pie",
+      data: {
+        labels: xValues,
+        datasets: [{
+          backgroundColor: barColors,
+          data: yValues
+        }]
+      },
+      options: {
+        title: {
+          display: true,
+          text: "Populārākie mājdzīvnieki pasaulē"
+        }
+      }
+    });
+    </script>
+</body>
+</html>
