@@ -1,8 +1,2 @@
-# saite
-
-=======
-
-=======
-=======
 # majaslapa
-
+Mājaslapa par mājdzīvniekiem.
