@@ -18,25 +18,25 @@ body{
 .img3{
 height: 260px;
 width: 390px;
-background: url(/images/giphy.gif);
+background: url(../images/giphy.gif);
 background-position: center; 
 }
 .img4{
     height: 260px;
     width: 390px;
-    background: url(/images/meaow.jpg);
+    background: url(../images/meaow.jpg);
     background-position: center; 
     }
 .img5{
 height: 260px;
 width: 195px;
-background: url(/images/shiba-inu.png);
+background: url(../images/shiba-inu.png);
 background-position: center; 
 }
 .img6{
 height: 260px;
 width: 390px;
-background: url(/images/FOODSTEAL.jpg);
+background: url(../images/FOODSTEAL.jpg);
 background-position: center; 
 }
 

@@ -74,7 +74,7 @@ width: 233px;
 height: 289px;
 left: 24.5%;
 top: 228px;
-background: url(/images/dog.jpg);
+background: url(../images/dog.jpg);
 background-position: center;
 background-size: cover;
 }
@@ -84,7 +84,7 @@ width: 233px;
 height: 289px;
 left: 37.5%;
 top: 228px;
-background: url(/images/cat.jpg);
+background: url(../images/cat.jpg);
 background-position: center;
 background-size: cover;
 }
@@ -94,7 +94,7 @@ width: 233px;
 height: 289px;
 left: 50.5%;
 top: 228px;
-background: url(/images/parrot.png);
+background: url(../images/parrot.png);
 background-position: center;
 background-size: cover;
 }
@@ -104,7 +104,7 @@ width: 233px;
 height: 289px;
 left: 63.5%;
 top: 228px;
-background: url(/images/tiger.jpg);
+background: url(../images/tiger.jpg);
 background-position: center; 
 background-size: cover;
 }
